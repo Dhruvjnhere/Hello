@@ -1,0 +1,22 @@
+/* Styles for Home Page */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+.landing-page {
+    /* Add any specific styles for landing page here */
+}
+
+.landing-text h2 {
+    /* Example style */
+    font-size: 2rem;
+}
+
+.landing-text p {
+    font-size: 1.2rem;
+}

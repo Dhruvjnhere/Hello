@@ -1,0 +1,88 @@
+/* Dark theme with glowing text and professional styling */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+/* White theme for product page */
+body.white-theme {
+    background-color: #ffffff;
+    color: #222222;
+}
+
+body.white-theme header {
+    background-color: #f5f5f5;
+    color: #222222;
+    box-shadow: 0 2px 8px #cccccc;
+    text-shadow: none;
+}
+
+body.white-theme .navbar {
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px #cccccc;
+}
+
+body.white-theme .nav-links a {
+    color: #222222;
+    text-shadow: none;
+}
+
+body.white-theme .nav-links a:hover,
+body.white-theme .nav-links a:focus {
+    background-color: #e0e0e0;
+    color: #222222;
+    text-shadow: none;
+}
+
+body.white-theme .landing-page,
+body.white-theme .info-section,
+body.white-theme .section-container {
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px #cccccc;
+    color: #222222;
+    text-shadow: none;
+}
+
+body.white-theme .product-card {
+    background-color: #f9f9f9;
+    border: 1px solid #cccccc;
+    box-shadow: 0 2px 8px #cccccc;
+    color: #222222;
+    text-shadow: none;
+}
+
+body.white-theme .product-card:hover {
+    box-shadow: 0 8px 16px #bbbbbb;
+}
+
+body.white-theme model-viewer {
+    box-shadow: 0 4px 12px #cccccc;
+}
+
+body.white-theme model-viewer:hover {
+    box-shadow: 0 8px 24px #bbbbbb;
+}
+
+/* Back button style */
+.back-button {
+    display: inline-block;
+    margin-bottom: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 0 8px #007bff;
+}
+
+.back-button:hover {
+    background-color: #0056b3;
+    box-shadow: 0 0 12px #0056b3;
+}

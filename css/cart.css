@@ -1,0 +1,29 @@
+/* Styles for Cart Page */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+.section-container {
+    padding: 1rem 2rem;
+}
+
+#cart-items {
+    margin-bottom: 1rem;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #333333;
+}
+
+#cart-total {
+    font-weight: bold;
+    font-size: 1.2rem;
+}

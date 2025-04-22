@@ -1,0 +1,23 @@
+/* Styles for Contact Page */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+footer#contact {
+    padding: 1rem 2rem;
+    background-color: #1e1e1e;
+    box-shadow: 0 2px 8px #000000;
+}
+
+footer#contact h2 {
+    margin-top: 0;
+}
+
+footer#contact p {
+    margin: 0.5rem 0;
+}
